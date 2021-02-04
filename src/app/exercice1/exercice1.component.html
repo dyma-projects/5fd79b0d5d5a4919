@@ -1,0 +1,13 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-5">
+            <input [type]="inputType" [(ngModel)] ="value">
+        </div>
+        <div class="col-5">
+            <span> {{value}} </span>
+            <button class="btn btn-primary" 
+            (click)="changeInp()">changer le type de l'input</button>
+        </div>
+    </div>
+</div>
